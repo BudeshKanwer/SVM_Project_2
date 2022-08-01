@@ -64,7 +64,7 @@ def main():
       result=predict_random(UserID, Gender,Age,EstimatedSalary)
       st.success('Random forest Model  has predicted {}'.format(result))  
     if st.button("About"):
-      st.header("Developed by Dr. Budesh Knwer ")
+      st.header("Developed by Dr. Budesh Kanwer ")
       st.subheader("Department of Computer Engineering")
     html_temp = """
     <div class="" style="background-color:orange;" >
